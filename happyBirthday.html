@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy 34th, Bro!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Neue', cursive;
+    }
+    body {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background-color: #fff;
+      width: 450px;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #ff4d4d;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 10px;
+      color: #555;
+    }
+    .message {
+      margin-top: 20px;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #333;
+      text-align: left;
+    }
+    .btn {
+      margin-top: 25px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #ff4d4d;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #e63946;
+    }
+    .funny-quote {
+      margin-top: 15px;
+      font-style: italic;
+      color: #777;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Happy 34th!</h1>
+    <h2>To My Forever Introverted Brother</h2>
+    <div class="message">
+      🎈 Remember when you consoled me after Dadima left with Vadepapa and didn’t take me with them?<br><br>
+      🍫 Or when you got me a chocolate just because I was craving it?<br><br>
+      💻 Or when you told me about how you got into coding and made me interested in it too?<br><br>
+      You’re not just a brother — you're a certified <strong>legend</strong>… in your own mind 😂<br><br>
+      Though we’re *decades apart* in age (yes, you're ancient), you’ll always be my introverted brother — the one I can always go to for advice, roast a little, and rely on silently.<br><br>
+      I love you, even if we don’t bond over much right now. I know you’ll always be there for me.<br><br>
+      And hey... maybe one day we’ll bond over a nice plate of biryani. 🍛😏
+    </div>
+    <button class="btn" onclick="showQuote()">Click for Wisdom</button>
+    <div class="funny-quote" id="quote">
+      “You're not old, you're just... vintage. Like that floppy disk you once used.” 😉
+
+      <br>
+        P.S. This is a gift
+      <br>
+      from hunar and ustat btw(usko aata nahi so i coded this for him as well while teaching him basic html stuff)
+    </div>
+  </div>
+
+
+  <script>
+    function showQuote() {
+      const quote = document.getElementById("quote");
+      quote.style.display = "block";
+    }
+  </script>
+</body>
+</html>
